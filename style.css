@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+#field {
+    position: relative;
+    width: unset;
+    height: unset;
+    outline: 1px solid #aaa;
+}
+
+#unit {
+    position: absolute;
+    top: unset;
+    left: unset;
+    /* transition-property: left, top;
+    transition-timing-function: linear;
+    transition-duration: unset; */
+    width: unset;
+    height: unset;
+    background-color: red;
+    border: none;
+}
+
+#unit.up {
+    border-top: 5px solid #faa;
+}
+#unit.down {
+    border-bottom: 5px solid #faa;
+}
+#unit.left {
+    border-left: 5px solid #faa;
+}
+#unit.right {
+    border-right: 5px solid #faa;
+}
+
+
+
+/* 
+.test {
+    position: absolute;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+}
+#first {
+    top: 50px;
+}
+#second {
+    top: 100px;
+}
+#third {
+    top: 150px;
+}
+#forth {
+    top: 200px;
+} */
